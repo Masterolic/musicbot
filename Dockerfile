@@ -4,7 +4,7 @@ RUN apt update && apt upgrade -y
 RUN apt install git curl python3-pip ffmpeg -y
 
 RUN cd /
-RUN git clone https://github.com/LEGEND-OS/MUSIC-VC
+RUN git clone https://github.com/Masterolic/MUSIC-VC
 RUN cd MUSIC-VC
 WORKDIR /MUSIC-VC
 
