@@ -4,9 +4,9 @@ RUN apt update && apt upgrade -y
 RUN apt install git curl python3-pip ffmpeg -y
 
 RUN cd /
-RUN git clone https://github.com/Masterolic/MUSIC-VC
-RUN cd MUSIC-VC
-WORKDIR /MUSIC-VC
+RUN git clone https://github.com/Masterolic/musicbot/
+RUN cd musicbot
+WORKDIR /musicbot
 
 RUN pip3 install --upgrade pip
 RUN pip3 install -U -r requirements.txt
