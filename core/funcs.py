@@ -28,7 +28,7 @@ from pytube import Playlist
 from pyrogram import Client
 from yt_dlp import YoutubeDL
 from pyrogram.types import Message
-from pytgcalls import PyTgCalls, StreamType
+from pytgcalls import pytgcalls, StreamType
 from PIL import Image, ImageDraw, ImageFont
 from core.groups import get_group, set_title
 from youtubesearchpython import VideosSearch
